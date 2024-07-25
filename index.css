@@ -39,6 +39,12 @@ body{
     font-weight: bold;
     margin-top: 50px;
 }
+
+.intro-p{
+    line-height: 1.4;
+}
+
+
 .link1{
     margin-right: 15px;
     text-decoration: none;
