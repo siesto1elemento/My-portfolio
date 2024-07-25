@@ -57,6 +57,8 @@ a{
 .full-intro{
     opacity: 0.5;
     margin-top: 50px;
+    line-height: 1.6;
+    font-size: 17px;
 }
 
 .project-heading{
