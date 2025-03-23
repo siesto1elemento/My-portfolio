@@ -4,37 +4,92 @@
     <link rel="stylesheet" href="index.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rohit Ojha | Backend Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="main-container">
-        <div class="flex-container">
-                <p class="name">Rohit</p>
-            <div class="links">
-                <a class="link1" href="">Contact</a>
-                <a class="link2" href="https://drive.google.com/file/d/1WyivxSge9qERVQ6S5eWV5eur-PzK9LQl/view?usp=sharing">Resume</a>
+        <header>
+            <div class="flex-container">
+                <h1 class="name">Rohit Ojha</h1>
+                <nav class="links">
+                    <a href="#experience">Experience</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#skills">Skills</a>
+                    <a href="https://drive.google.com/file/d/1L-AuJcEH0tN677EZw69_ra-zyU5eGhQC/view?usp=drive_link" target="_blank">Resume</a>
+                </nav>
             </div>
-        </div>
-        <div class="intro">
-            <p class="intro-p">Namaste, I’m Rohit.<br>
-            <span class="faded">A Backend engineer <br>from India based in jaipur.</span></p>
-        </div>
-        <div class="full-intro">I’m Rohit, a backend engineer. I use Python and Js for my projects. I’m currently working with Django to help make dynamic websites. I love Python and building reliable backends. Contact me for work</div>
-        <p class=" name project-heading">Projects</p>
-        <div>
-            <div class="projects">
-                <img class="img-1" src="b.webp" width="40px" height="40px" >
-                <p class="project">Hacker News clone <br><span class="faded small"> Clone of hackerNews made in django</span></p>
+        </header>
+
+        <section class="intro">
+            <h2>Backend Developer</h2>
+            <p class="subtitle">Based in Jaipur, India</p>
+            <div class="contact-info">
+                <a href="mailto:rohitojha9720@gmail.com"><i class="fas fa-envelope"></i> rohitojha9720@gmail.com</a>
+                <a href="tel:+919122489949"><i class="fas fa-phone"></i> +91-9122489949</a>
+                <a href="https://github.com/siesto1elemento" target="_blank"><i class="fab fa-github"></i>Rohit Ojha</a>
             </div>
-            <div class="projects">
-                <img class="img-2" src="a.webp" width="40px" height="40px" alt="">
-                <p class="project">Hackleague <br><span class="faded small"> A hackathon aggregator</span></p>
-            </div >
-            <div class="projects">
-                <img class="img-3" src="c.webp" width="40px" height="40px" alt="">
-                <p class="project">FastAPI CRUD<br><span class="faded small"> All crud operations in fastapi</span></p>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="experience-item">
+                <h3>Backend Developer Intern</h3>
+                <p class="company">MIDAS LABS (IIIT Delhi)</p>
+                <p class="duration">Aug 2024 - Nov 2024 | Remote, Jaipur</p>
+                <ul>
+                    <li>Developed comprehensive annotations import functionality for Audino, processing over 1,000 records</li>
+                    <li>Extended support to 6 diverse annotation formats including Librespeech, LibreVox, and VCTK-corpus</li>
+                    <li>Designed and implemented a subscription model for future Stripe integration</li>
+                </ul>
             </div>
-        </div>
+        </section>
+
+        <section id="projects">
+            <h2>Featured Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>HackLeague</h3>
+                    <p class="project-desc">Hackathon aggregator platform with automated data collection from Devfolio, Unstop, and GFG</p>
+                    <p class="tech-stack">Python · Django · BeautifulSoup · Celery · SQLite</p>
+                </div>
+                
+                <div class="project-card">
+                    <h3>DjangoNews</h3>
+                    <p class="project-desc">Hacker News clone with dynamic post ranking and secure authentication</p>
+                    <p class="tech-stack">Django · Allauth · SQLite</p>
+                </div>
+
+                <div class="project-card">
+                    <h3>Reflexion Agent</h3>
+                    <p class="project-desc">Multi-step Reflexion Agent using LangGraph with modular node structure</p>
+                    <p class="tech-stack">LangGraph · LangChain · Tavily API · Python</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <p>Python, Golang, JavaScript, C, SQL</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Frameworks</h3>
+                    <p>Django, React, FastAPI, Flask, Scrapy, Selenium, Gin</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Technologies</h3>
+                    <p>PostgreSQL, MySQL, Docker, AWS, Redis, MongoDB</p>
+                </div>
+                <div class="skill-category">
+                    <h3>AI/LLM Tools</h3>
+                    <p>LangChain, LangGraph, LlamaIndex, RAG, Vector Stores</p>
+                </div>
+            </div>
+        </section>
     </div>
 </body>
 </html>
